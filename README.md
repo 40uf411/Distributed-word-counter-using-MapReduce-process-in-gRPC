@@ -76,3 +76,22 @@ The following video illustrates the system in work.
 
 https://user-images.githubusercontent.com/29804103/130329973-77913a2d-eabe-4442-83fb-1f5ee4bdd22f.mp4
 
+---
+
+We can launch a worker by using the following command:
+```
+# Provide the port as a flag
+$ python worker.py 4000
+```
+
+We can launch a driver by using the following command:
+```
+# Provide the port as a flag
+$ python driver.py 4000
+```
+
+We can launch a client by using the following command:
+```
+# Provide the directory path, number of reduce operations, and the ports of the workers as flags
+$ python driver.py ./inputs 4 4001 4002
+```
