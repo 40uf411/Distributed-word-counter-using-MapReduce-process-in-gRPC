@@ -1,4 +1,4 @@
-# BenshiAI
+# Distributed-word-counter-using-MapReduce-process-in-gRPC
 
 # **Conception**
 
